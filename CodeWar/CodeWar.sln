@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWar", "CodeWar\CodeWar.csproj", "{E5050F97-BE83-4203-BE97-F7532457AFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarTests", "CodeWarTests\CodeWarTests.csproj", "{1ACFF667-B156-486D-A5AC-A2CF34C31085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5050F97-BE83-4203-BE97-F7532457AFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5050F97-BE83-4203-BE97-F7532457AFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5050F97-BE83-4203-BE97-F7532457AFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5050F97-BE83-4203-BE97-F7532457AFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACFF667-B156-486D-A5AC-A2CF34C31085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACFF667-B156-486D-A5AC-A2CF34C31085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACFF667-B156-486D-A5AC-A2CF34C31085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACFF667-B156-486D-A5AC-A2CF34C31085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
