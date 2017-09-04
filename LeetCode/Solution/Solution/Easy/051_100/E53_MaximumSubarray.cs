@@ -23,6 +23,7 @@ namespace Solution.Easy._051_100
                     break;
                 }
             }
+            return sum;
         }
     }
 }
