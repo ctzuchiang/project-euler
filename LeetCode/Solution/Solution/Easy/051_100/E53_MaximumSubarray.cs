@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System;
 
 namespace Solution.Easy._051_100
 {
@@ -7,23 +7,17 @@ namespace Solution.Easy._051_100
         public int MaxSubArray(int[] nums)
         {
             var sum = 0;
-            var fn_1 = 0;
-            foreach (var num in nums)
+            var max = Int32.MinValue;
+            foreach (int num in nums)
             {
-                if (num > 0)
-                {
-                    fn_1 += num;
-                }
-                if (fn_1 > sum)
-                {
-                    sum = fn_1;
-                }
+                if (sum < 0)
+                    sum = num;
                 else
-                {
-                    break;
-                }
+                    sum += num;
+                if (sum>max)
+                    max = sum;
             }
-            return sum;
+            return max;
         }
     }
 }
