@@ -55,6 +55,7 @@
     <Compile Include="Easy\051_100\E58_LengthOfLastWord.cs" />
     <Compile Include="Easy\051_100\E66_PlusOne.cs" />
     <Compile Include="Easy\051_100\E67_AddBinary.cs" />
+    <Compile Include="Easy\051_100\E69_SqrtX.cs" />
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumber.cs" />
     <Compile Include="Medium\001_050\M15_ 3Sum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
