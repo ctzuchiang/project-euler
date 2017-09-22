@@ -92,6 +92,7 @@
     <Compile Include="Easy\051_100\E66_PlusOneTests.cs" />
     <Compile Include="Easy\051_100\E67_AddBinaryTests.cs" />
     <Compile Include="Easy\051_100\E69_SqrtXTests.cs" />
+    <Compile Include="Easy\051_100\E70_ClimbingStairsTests.cs" />
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumberTests.cs" />
     <Compile Include="Medium\001_050\M15_3SumTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
