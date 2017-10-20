@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using Solution.Easy._001_050;
 
-namespace Solution.Easy._001_050.Tests
+namespace SolutionTests.Easy._001_050
 {
     [TestFixture]
     public class E35_SearchInsertPositionTests
