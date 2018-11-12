@@ -10,6 +10,11 @@ namespace Solution.Others
     {
         public string ReplaceSpace(string str, int trueLength)
         {
+            if (str == null)
+                throw new ArgumentNullException();
+            if (trueLength == 0)
+                return "";
+
             string realStr = str.Substring(0, trueLength);
             string result = string.Empty;
 
