@@ -59,6 +59,7 @@
     <Compile Include="Easy\051_100\E70_ClimbingStairs.cs" />
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumber.cs" />
     <Compile Include="Medium\001_050\M15_ 3Sum.cs" />
+    <Compile Include="Others\URLify.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringBuilderCleaner.cs" />
   </ItemGroup>
