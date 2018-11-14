@@ -13,13 +13,19 @@ namespace SolutionTests.Easy.Others
         [TestCase(" Hello World", 12, ExpectedResult = "%20Hello%20World")]
         [TestCase("Hello World  ", 9, ExpectedResult = "Hello%20Wor")]
         [TestCase("Hello World  ", 0, ExpectedResult = "")]
-        [TestCase(null, 1, ExpectedException = typeof(ArgumentNullException))]
         public string ReplaceSpace_Tests(string input, int trueLength)
         {
             var target = new URLify();
             var actual = target.ReplaceSpace(input, trueLength);
 
             return actual;
+        }
+
+        [Test]
+        public void ReplaceSpace_Null_Test()
+        {
+            var target = new URLify();
+            Assert.That(() => target.ReplaceSpace(null, 1), Throws.TypeOf<ArgumentNullException>());
         }
     }
 }

@@ -57,6 +57,7 @@
     <Compile Include="Easy\051_100\E67_AddBinary.cs" />
     <Compile Include="Easy\051_100\E69_SqrtX.cs" />
     <Compile Include="Easy\051_100\E70_ClimbingStairs.cs" />
+    <Compile Include="Easy\101_150\E136_Single_Number.cs" />
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumber.cs" />
     <Compile Include="Medium\001_050\M15_ 3Sum.cs" />
     <Compile Include="Others\URLify.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="StringBuilderCleaner.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Easy\101_150\" />
     <Folder Include="Easy\151_200\" />
     <Folder Include="Easy\201_250\" />
     <Folder Include="Easy\251_300\" />
