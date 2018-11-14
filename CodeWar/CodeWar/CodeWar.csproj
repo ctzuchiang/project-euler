@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata\8kyu\Kata_ReversedSequence.cs" />
+    <Compile Include="Kata\8kyu\Kata_TransportationOnVacation.cs" />
     <Compile Include="Kata\Kata_BandNameGenerator.cs" />
     <Compile Include="Kata\Kata_CountingDuplicates.cs" />
     <Compile Include="Kata\Kata_DeadAntCount.cs" />

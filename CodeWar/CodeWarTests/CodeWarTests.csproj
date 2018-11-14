@@ -57,6 +57,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Kata\8kyu\Kata_ReversedSequenceTests.cs" />
+    <Compile Include="Kata\8kyu\Kata_TransportationOnVacationTests.cs" />
     <Compile Include="Kata\Kata_BandNameGeneratorTests.cs" />
     <Compile Include="Kata\Kata_CountingDuplicatesTests.cs" />
     <Compile Include="Kata\Kata_DeadAntCountTests.cs" />
