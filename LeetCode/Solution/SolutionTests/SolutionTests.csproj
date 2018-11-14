@@ -78,6 +78,7 @@
     <Compile Include="Easy\051_100\E67_AddBinaryTests.cs" />
     <Compile Include="Easy\051_100\E69_SqrtXTests.cs" />
     <Compile Include="Easy\051_100\E70_ClimbingStairsTests.cs" />
+    <Compile Include="Easy\101_150\E136_Single_NumberTests.cs" />
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumberTests.cs" />
     <Compile Include="Easy\Others\URLifyTests.cs" />
     <Compile Include="Medium\001_050\M15_3SumTests.cs" />
@@ -91,7 +92,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Easy\101_150\" />
     <Folder Include="Easy\151_200\" />
     <Folder Include="Easy\201_250\" />
     <Folder Include="Easy\251_300\" />
