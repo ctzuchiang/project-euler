@@ -61,7 +61,7 @@
     <Compile Include="Kata\Kata_CountingDuplicatesTests.cs" />
     <Compile Include="Kata\Kata_DeadAntCountTests.cs" />
     <Compile Include="Kata\Kata_StringAverageTests.cs" />
-    <Compile Include="Kata\Kata_TheFeastOfManyBeastsTests.cs" />
+    <Compile Include="Kata\8kyu\Kata_TheFeastOfManyBeastsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

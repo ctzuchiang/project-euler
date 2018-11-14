@@ -1,7 +1,7 @@
-﻿using CodeWar.Kata;
+﻿using CodeWar.Kata._8kyu;
 using NUnit.Framework;
 
-namespace CodeWarTests.Kata
+namespace CodeWarTests.Kata._8kyu
 {
     [TestFixture()]
     public class Kata_TheFeastOfManyBeastsTests

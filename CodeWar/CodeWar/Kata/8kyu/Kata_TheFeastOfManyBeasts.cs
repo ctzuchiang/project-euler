@@ -1,4 +1,4 @@
-﻿namespace CodeWar.Kata
+﻿namespace CodeWar.Kata._8kyu
 {
     public class Kata_TheFeastOfManyBeasts
     {

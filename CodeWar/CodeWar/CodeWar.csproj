@@ -43,7 +43,7 @@
     <Compile Include="Kata\Kata_CountingDuplicates.cs" />
     <Compile Include="Kata\Kata_DeadAntCount.cs" />
     <Compile Include="Kata\Kata_StringAverage.cs" />
-    <Compile Include="Kata\Kata_TheFeastOfManyBeasts.cs" />
+    <Compile Include="Kata\8kyu\Kata_TheFeastOfManyBeasts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
