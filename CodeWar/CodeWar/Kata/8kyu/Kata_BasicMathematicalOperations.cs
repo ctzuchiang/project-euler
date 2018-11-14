@@ -14,9 +14,9 @@
                     return value1 * value2;
                 case '/':
                     return value1 / value2;
+                default:
+                    throw new System.ArgumentException("Unknown operation!", operation.ToString());
             }
-
-            return 0;
         }
     }
 }
