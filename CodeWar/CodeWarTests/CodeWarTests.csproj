@@ -58,6 +58,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Kata\kyu8\kyu8_BasicMathematicalOperationsTests.cs" />
+    <Compile Include="Kata\kyu8\kyu8_EvenOrOddTests.cs" />
     <Compile Include="Kata\kyu8\kyu8_ReversedSequenceTests.cs" />
     <Compile Include="Kata\kyu8\kyu8_TransportationOnVacationTests.cs" />
     <Compile Include="Kata\kyu_BandNameGeneratorTests.cs" />
