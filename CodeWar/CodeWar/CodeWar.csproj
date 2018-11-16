@@ -43,6 +43,7 @@
     <Compile Include="Kata\kyu8\kyu8_BasicMathematicalOperations.cs" />
     <Compile Include="Kata\kyu8\kyu8_ReversedSequence.cs" />
     <Compile Include="Kata\kyu8\kyu8_TransportationOnVacation.cs" />
+    <Compile Include="Kata\kyu8\kyu8_YouOnlyNeedOne_Beginner.cs" />
     <Compile Include="Kata\kyu_BandNameGenerator.cs" />
     <Compile Include="Kata\kyu_CountingDuplicates.cs" />
     <Compile Include="Kata\kyu_DeadAntCount.cs" />

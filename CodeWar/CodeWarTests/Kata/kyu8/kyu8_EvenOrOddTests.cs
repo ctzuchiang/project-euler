@@ -1,12 +1,7 @@
 ﻿using CodeWar.Kata.kyu8;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CodeWar.Kata.kyu8.Tests
+namespace CodeWarTests.Kata.kyu8
 {
     [TestFixture()]
     public class kyu8_EvenOrOddTests

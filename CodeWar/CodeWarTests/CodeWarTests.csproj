@@ -61,6 +61,7 @@
     <Compile Include="Kata\kyu8\kyu8_EvenOrOddTests.cs" />
     <Compile Include="Kata\kyu8\kyu8_ReversedSequenceTests.cs" />
     <Compile Include="Kata\kyu8\kyu8_TransportationOnVacationTests.cs" />
+    <Compile Include="Kata\kyu8\kyu8_YouOnlyNeedOne_BeginnerTests.cs" />
     <Compile Include="Kata\kyu_BandNameGeneratorTests.cs" />
     <Compile Include="Kata\kyu_CountingDuplicatesTests.cs" />
     <Compile Include="Kata\kyu_DeadAntCountTests.cs" />
