@@ -1,6 +1,6 @@
-﻿namespace CodeWar.Kata._8kyu
+﻿namespace CodeWar.Kata.kyu8
 {
-    public class Kata_ReversedSequence
+    public class kyu8_ReversedSequence
     {
         public int[] ReverseSeq(int n)
         {

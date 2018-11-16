@@ -1,6 +1,6 @@
-﻿namespace CodeWar.Kata._8kyu
+﻿namespace CodeWar.Kata.kyu8
 {
-    public class Kata_TheFeastOfManyBeasts
+    public class kyu8_TheFeastOfManyBeasts
     {
         public bool Feast(string beast, string dish)
         {

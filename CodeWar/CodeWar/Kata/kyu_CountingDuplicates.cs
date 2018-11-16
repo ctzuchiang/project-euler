@@ -2,7 +2,7 @@
 
 namespace CodeWar.Kata
 {
-    public class Kata_CountingDuplicates
+    public class kyu_CountingDuplicates
     {
         public static int DuplicateCount(string str)
         {

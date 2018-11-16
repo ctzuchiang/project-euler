@@ -1,6 +1,6 @@
-﻿namespace CodeWar.Kata._8kyu
+﻿namespace CodeWar.Kata.kyu8
 {
-    public class Kata_BasicMathematicalOperations
+    public class kyu8_BasicMathematicalOperations
     {
         public double basicOp(char operation, double value1, double value2)
         {

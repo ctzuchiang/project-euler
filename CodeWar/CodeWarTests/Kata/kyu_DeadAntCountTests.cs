@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace CodeWarTests.Kata
 {
     [TestFixture]
-    public class Kata_DeadAntCountTests
+    public class kyu_DeadAntCountTests
     {
         [TestCase("ant ant ant ant", ExpectedResult = 0)]
         [TestCase(null, ExpectedResult = 0)]
@@ -12,7 +12,7 @@ namespace CodeWarTests.Kata
         [TestCase("ant ant .... a nt", ExpectedResult = 1)]
         public int DeadAntCountTests(string ants)
         {
-            return Kata_DeadAntCount.DeadAntCount(ants);
+            return kyu_DeadAntCount.DeadAntCount(ants);
         }
     }
 }

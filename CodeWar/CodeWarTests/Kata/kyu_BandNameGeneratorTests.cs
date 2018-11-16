@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace CodeWarTests.Kata
 {
     [TestFixture()]
-    public class Kata_BandNameGeneratorTests
+    public class kyu_BandNameGeneratorTests
     {
         [TestCase("knife", ExpectedResult = "The Knife",TestName = "Input \"knife\" should return \"The Knife\"")]
         [TestCase("tart", ExpectedResult = "Tartart", TestName = "Input \"tart\" should return \"Tartart\"")]
@@ -12,7 +12,7 @@ namespace CodeWarTests.Kata
         [TestCase("bed", ExpectedResult = "The Bed", TestName = "Input \"bed\" should return \"The Bed\"")]
         public string BandNameGeneratorTest(string inputName)
         {
-            return Kata_BandNameGenerator.BandNameGenerator(inputName);
+            return kyu_BandNameGenerator.BandNameGenerator(inputName);
         }
     }
 }

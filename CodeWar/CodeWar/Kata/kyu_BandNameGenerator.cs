@@ -2,7 +2,7 @@
 
 namespace CodeWar.Kata
 {
-    public class Kata_BandNameGenerator
+    public class kyu_BandNameGenerator
     {
         public static string BandNameGenerator(string str)
         {

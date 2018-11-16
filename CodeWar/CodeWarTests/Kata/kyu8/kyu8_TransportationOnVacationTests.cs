@@ -1,10 +1,10 @@
-﻿using CodeWar.Kata._8kyu;
+﻿using CodeWar.Kata.kyu8;
 using NUnit.Framework;
 
-namespace CodeWarTests.Kata._8kyu
+namespace CodeWarTests.Kata.kyu8
 {
     [TestFixture()]
-    public class Kata_TransportationOnVacationTests
+    public class kyu8_TransportationOnVacationTests
     {
         [TestCase(0, ExpectedResult = 0)]
         [TestCase(1, ExpectedResult = 40)]
@@ -14,7 +14,7 @@ namespace CodeWarTests.Kata._8kyu
         [TestCase(17, ExpectedResult = 630)]
         public int RentalCarCostTest(int day)
         {
-            var target = new Kata_TransportationOnVacation();
+            var target = new kyu8_TransportationOnVacation();
 
             var actual = target.RentalCarCost(day);
 

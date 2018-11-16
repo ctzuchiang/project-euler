@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeWar.Kata
 {
-    public class Kata_DeadAntCount
+    public class kyu_DeadAntCount
     {
         public static int DeadAntCount(string ants)
         {

@@ -57,14 +57,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Kata\8kyu\Kata_BasicMathematicalOperationsTests.cs" />
-    <Compile Include="Kata\8kyu\Kata_ReversedSequenceTests.cs" />
-    <Compile Include="Kata\8kyu\Kata_TransportationOnVacationTests.cs" />
-    <Compile Include="Kata\Kata_BandNameGeneratorTests.cs" />
-    <Compile Include="Kata\Kata_CountingDuplicatesTests.cs" />
-    <Compile Include="Kata\Kata_DeadAntCountTests.cs" />
-    <Compile Include="Kata\Kata_StringAverageTests.cs" />
-    <Compile Include="Kata\8kyu\Kata_TheFeastOfManyBeastsTests.cs" />
+    <Compile Include="Kata\kyu8\kyu8_BasicMathematicalOperationsTests.cs" />
+    <Compile Include="Kata\kyu8\kyu8_ReversedSequenceTests.cs" />
+    <Compile Include="Kata\kyu8\kyu8_TransportationOnVacationTests.cs" />
+    <Compile Include="Kata\kyu_BandNameGeneratorTests.cs" />
+    <Compile Include="Kata\kyu_CountingDuplicatesTests.cs" />
+    <Compile Include="Kata\kyu_DeadAntCountTests.cs" />
+    <Compile Include="Kata\kyu_StringAverageTests.cs" />
+    <Compile Include="Kata\kyu8\kyu8_TheFeastOfManyBeastsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

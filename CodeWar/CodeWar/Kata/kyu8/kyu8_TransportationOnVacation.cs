@@ -1,6 +1,6 @@
-﻿namespace CodeWar.Kata._8kyu
+﻿namespace CodeWar.Kata.kyu8
 {
-    public class Kata_TransportationOnVacation
+    public class kyu8_TransportationOnVacation
     {
         public int RentalCarCost(int d)
         {

@@ -1,16 +1,16 @@
-﻿using CodeWar.Kata._8kyu;
+﻿using CodeWar.Kata.kyu8;
 using NUnit.Framework;
 
-namespace CodeWarTests.Kata._8kyu
+namespace CodeWarTests.Kata.kyu8
 {
     [TestFixture()]
-    public class Kata_TheFeastOfManyBeastsTests
+    public class kyu8_TheFeastOfManyBeastsTests
     {
         [TestCase("great blue heron", "garlic naan")]
         [TestCase("chickadee", "chocolate cake")]
         public void Feast_True_Test(string beast, string dish)
         {
-            var target = new Kata_TheFeastOfManyBeasts();
+            var target = new kyu8_TheFeastOfManyBeasts();
             
             var actaul = target.Feast(beast, dish);
 
@@ -20,7 +20,7 @@ namespace CodeWarTests.Kata._8kyu
         [TestCase("brown bear", "bear claw")]
         public void Feast_False_Test(string beast, string dish)
         {
-            var target = new Kata_TheFeastOfManyBeasts();
+            var target = new kyu8_TheFeastOfManyBeasts();
 
             var actaul = target.Feast(beast, dish);
 

@@ -1,6 +1,6 @@
 ﻿namespace CodeWar.Kata
 {
-    public class Kata_StringAverage
+    public class kyu_StringAverage
     {
         public static string AverageString(string str)
         {

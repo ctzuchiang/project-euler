@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace CodeWarTests.Kata
 {
     [TestFixture]
-    public class Kata_StringAverageTests
+    public class kyu_StringAverageTests
     {
         [TestCase("zero nine five two", ExpectedResult = "four", TestName = "Input \"zero nine five two\" should return \"four\"")]
         [TestCase("four six two three", ExpectedResult = "three", TestName = "Input \"four six two three\" should return \"three\"")]
@@ -16,7 +16,7 @@ namespace CodeWarTests.Kata
         [TestCase("zero", ExpectedResult = "zero", TestName = "Input \"zero\" should return \"zero\"")]
         public string AverageStringTest(string input)
         {
-            return Kata_StringAverage.AverageString(input);
+            return kyu_StringAverage.AverageString(input);
         }
     }
 }

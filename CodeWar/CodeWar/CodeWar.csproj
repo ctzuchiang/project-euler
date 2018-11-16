@@ -39,14 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kata\8kyu\Kata_BasicMathematicalOperations.cs" />
-    <Compile Include="Kata\8kyu\Kata_ReversedSequence.cs" />
-    <Compile Include="Kata\8kyu\Kata_TransportationOnVacation.cs" />
-    <Compile Include="Kata\Kata_BandNameGenerator.cs" />
-    <Compile Include="Kata\Kata_CountingDuplicates.cs" />
-    <Compile Include="Kata\Kata_DeadAntCount.cs" />
-    <Compile Include="Kata\Kata_StringAverage.cs" />
-    <Compile Include="Kata\8kyu\Kata_TheFeastOfManyBeasts.cs" />
+    <Compile Include="Kata\kyu8\kyu8_EvenOrOdd.cs" />
+    <Compile Include="Kata\kyu8\kyu8_BasicMathematicalOperations.cs" />
+    <Compile Include="Kata\kyu8\kyu8_ReversedSequence.cs" />
+    <Compile Include="Kata\kyu8\kyu8_TransportationOnVacation.cs" />
+    <Compile Include="Kata\kyu_BandNameGenerator.cs" />
+    <Compile Include="Kata\kyu_CountingDuplicates.cs" />
+    <Compile Include="Kata\kyu_DeadAntCount.cs" />
+    <Compile Include="Kata\kyu_StringAverage.cs" />
+    <Compile Include="Kata\kyu8\kyu8_TheFeastOfManyBeasts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
