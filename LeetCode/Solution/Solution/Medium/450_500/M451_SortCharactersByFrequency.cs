@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Linq;
 
 namespace Solution.Medium._450_500
@@ -15,11 +14,9 @@ namespace Solution.Medium._450_500
                 if (!ht.Contains(c))
                 {
                     ht.Add(c, 1);
+                    continue;
                 }
-                else
-                {
-                    ht[c] = (int)ht[c] + 1;
-                }
+                ht[c] = (int)ht[c] + 1;
             }
 
             string result = string.Empty;

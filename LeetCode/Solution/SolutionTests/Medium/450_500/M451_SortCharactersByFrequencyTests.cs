@@ -44,7 +44,7 @@ namespace SolutionTests.Medium._450_500
         }
 
         [Test]
-        public void FrequencySort_Time_running()
+        public void FrequencySort_Time_Runner()
         {
             Timer(FrequencySort_Success_Test);
             Timer(FrequencySort_Success2_Test);
