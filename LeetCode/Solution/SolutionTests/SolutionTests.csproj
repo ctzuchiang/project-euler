@@ -82,6 +82,7 @@
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumberTests.cs" />
     <Compile Include="Easy\Others\URLifyTests.cs" />
     <Compile Include="Medium\001_050\M15_3SumTests.cs" />
+    <Compile Include="Medium\450_500\M451_SortCharactersByFrequencyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringBuilderCleanerTests.cs" />
   </ItemGroup>
