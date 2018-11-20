@@ -8,7 +8,7 @@ namespace Solution.Others
     {
         public int[] ForLoopSorting(int[] nums)
         {
-            int a;
+            int n;
 
             for (int i = 0; i < nums.Length; i++)
             {
@@ -16,9 +16,9 @@ namespace Solution.Others
                 {
                     if (nums[i] > nums[j])
                     {
-                        a = nums[i];
+                        n = nums[i];
                         nums[i] = nums[j];
-                        nums[j] = a;
+                        nums[j] = n;
                     }
 
                 }
