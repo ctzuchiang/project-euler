@@ -1,8 +1,8 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using Solution.Others;
-using System;
 
-namespace SolutionTests.Easy.Others
+namespace SolutionTests.Others
 {
     [TestFixture]
     public class URLifyTests

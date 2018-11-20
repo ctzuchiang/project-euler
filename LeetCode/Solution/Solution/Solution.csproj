@@ -61,6 +61,7 @@
     <Compile Include="Easy\401_450\E414_ThirdMaximumNumber.cs" />
     <Compile Include="Medium\001_050\M15_ 3Sum.cs" />
     <Compile Include="Medium\450_500\M451_SortCharactersByFrequency.cs" />
+    <Compile Include="Others\IntArraySorting.cs" />
     <Compile Include="Others\URLify.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringBuilderCleaner.cs" />
