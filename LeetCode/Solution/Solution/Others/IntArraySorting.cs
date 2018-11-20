@@ -20,11 +20,34 @@ namespace Solution.Others
                         nums[i] = nums[j];
                         nums[j] = a;
                     }
-                    
+
                 }
             }
 
             return nums;
+        }
+
+        public int[] BucketSorting(int[] nums)
+        {
+            int[] bucket = new int[100];
+            int[] result = new int[nums.Length];
+            int index = 0;
+
+            foreach (var num in nums)
+            {
+                bucket[num]++;
+            }
+
+            for (int i = 0; i < bucket.Length; i++)
+            {
+                while (bucket[i] > 0)
+                {
+                    result[index++] = i;
+                    bucket[i]--;
+                }
+            }
+
+            return result;
         }
     }
 }

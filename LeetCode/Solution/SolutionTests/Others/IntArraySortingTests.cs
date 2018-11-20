@@ -59,9 +59,20 @@ namespace SolutionTests.Others
         }
 
         [Test]
+        public void BucketSoring_Success_Test()
+        {
+            var target = new IntArraySorting();
+
+            var actual = target.BucketSorting(_testData);
+
+            Assert.AreEqual(_expectedData, actual);
+        }
+
+        [Test]
         public void ForLoopSorting_Time_Runner()
         {
             Timer(ForLoopSorting_Success_Test);
+            Timer(BucketSoring_Success_Test);
         }
 
         private void Timer(IntArraySortingRunner runner)
