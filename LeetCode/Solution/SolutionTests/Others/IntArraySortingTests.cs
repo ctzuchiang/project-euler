@@ -59,7 +59,7 @@ namespace SolutionTests.Others
         }
 
         [Test]
-        public void BucketSoring_Success_Test()
+        public void BucketSorting_Success_Test()
         {
             var target = new IntArraySorting();
 
@@ -69,10 +69,21 @@ namespace SolutionTests.Others
         }
 
         [Test]
+        public void QuickSorting_Success_Test()
+        {
+            var target = new IntArraySorting();
+
+            var actual = target.QuickSorting(_testData);
+
+            Assert.AreEqual(_expectedData, actual);
+        }
+
+        [Test]
         public void ForLoopSorting_Time_Runner()
         {
             Timer(ForLoopSorting_Success_Test);
-            Timer(BucketSoring_Success_Test);
+            Timer(BucketSorting_Success_Test);
+            Timer(QuickSorting_Success_Test);
         }
 
         private void Timer(IntArraySortingRunner runner)
@@ -80,7 +91,7 @@ namespace SolutionTests.Others
             _stopwatch.Restart();
             runner();
             _stopwatch.Stop();
-            Console.WriteLine(_stopwatch.Elapsed);
+            Console.WriteLine($"{runner.Method.Name.PadLeft(30)}: {_stopwatch.Elapsed}");
         }
     }
 }

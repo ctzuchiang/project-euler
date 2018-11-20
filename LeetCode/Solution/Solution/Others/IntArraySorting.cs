@@ -49,5 +49,39 @@ namespace Solution.Others
 
             return result;
         }
+
+
+        public int[] QuickSorting(int[] nums)
+        {
+            Sort(ref nums, 0, nums.Length - 1);
+            return nums; 
+        }
+
+        private void Sort(ref int[] nums, int left, int right)
+        {
+            int n;
+            if (left < right)
+            {
+                int middle = nums[(left + right) / 2];
+                int i = left - 1;
+                int j = right + 1;
+                while (true)
+                {
+                    while (nums[++i] < middle) ;
+
+                    while (nums[--j] > middle) ;
+
+                    if (i >= j)
+                        break;
+
+                    n = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = n;
+                }
+
+                Sort(ref nums, left, i - 1);
+                Sort(ref nums, j + 1, right);
+            }
+        }
     }
 }
