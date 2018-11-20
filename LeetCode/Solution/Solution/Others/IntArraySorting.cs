@@ -1,8 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Runtime.CompilerServices;
-
-namespace Solution.Others
+﻿namespace Solution.Others
 {
     public class IntArraySorting
     {
