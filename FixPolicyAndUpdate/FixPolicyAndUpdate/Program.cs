@@ -18,6 +18,7 @@ namespace FixPolicyAndUpdate
 
         private static void ResetGroupPolicy()
         {
+            Console.WriteLine("Reset windows update group policy.\n");
             try
             {
                 var gpRegistryPath = @"C:\Windows\System32\GroupPolicy\Machine\Registry.pol";
