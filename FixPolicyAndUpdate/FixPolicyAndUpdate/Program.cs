@@ -1,7 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.ServiceProcess;
-using System.Threading;
 
 namespace FixPolicyAndUpdate
 {
@@ -21,6 +18,20 @@ namespace FixPolicyAndUpdate
 
         private static void ResetGroupPolicy()
         {
+            try
+            {
+                var gpRegistryPath = @"C:\Windows\System32\GroupPolicy\Machine\Registry.pol";
+                
+                var polFile = new PolFile();
+                polFile.LoadFile(gpRegistryPath);
+                polFile.DeleteContainer(@"Software\Policies\Microsoft\Windows\WindowsUpdate");
+                polFile.SaveFile(gpRegistryPath);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
         }
 
     }
