@@ -8,7 +8,7 @@ namespace FixPolicyAndUpdate
         static void Main()
         {
             _service = new WindowsUpdateService();
-            //_service.ResetWindowsUpdateService();
+            _service.ResetWindowsUpdateService();
 
             ResetGroupPolicy();
 
