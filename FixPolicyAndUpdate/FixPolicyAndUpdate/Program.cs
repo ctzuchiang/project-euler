@@ -40,9 +40,24 @@ namespace FixPolicyAndUpdate
         private static void ResetGroupPolicy()
         {
             Console.WriteLine("Reset windows update group policy.\n");
+
+            var gpRegistryPath = @"C:\Windows\System32\GroupPolicy\Machine\Registry.pol";
+
+            if (!File.Exists(gpRegistryPath))
+            {
+                byte[] byteArray = new byte[]
+                {
+                    80, 82, 101, 103, 1, 0, 0, 0
+                };
+                using (var fs = new FileStream(gpRegistryPath, FileMode.Create, FileAccess.Write))
+                {
+                    fs.Write(byteArray, 0, byteArray.Length);
+                }
+            }
+
             try
             {
-                var gpRegistryPath = @"C:\Windows\System32\GroupPolicy\Machine\Registry.pol";
+                
                 
                 var polFile = new PolFile();
                 polFile.LoadFile(gpRegistryPath);
