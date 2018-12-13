@@ -57,8 +57,6 @@ namespace FixPolicyAndUpdate
 
             try
             {
-                
-                
                 var polFile = new PolFile();
                 polFile.LoadFile(gpRegistryPath);
                 polFile.DeleteContainer(@"Software\Policies\Microsoft\Windows\WindowsUpdate");
